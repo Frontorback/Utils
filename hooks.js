@@ -15,7 +15,6 @@ export default function useDebounce(callback, delay) {
     );
 }
 
-
 export default function useThrottle(callback, delay) {
     const isThrottled = useRef(false);
     return useCallback(
